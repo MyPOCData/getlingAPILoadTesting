@@ -1,10 +1,5 @@
 package com.developers.perspective.scenarios
 
-/**
-  * Created by dmumma on 11/19/15.
-  */
-
-
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 

@@ -16,7 +16,7 @@ class EmpMicroserviceSimulation extends Simulation {
 
     GetUsers.getUsers.inject(
       atOnceUsers(1),
-      //rampUsers(100) over(1 seconds),
+      rampUsers(100) over(1 seconds),
       //constantUsersPerSec(1000) during(15 seconds)
       rampUsersPerSec(1) to 100 during(30 seconds) // 6
       //rampUsersPerSec(10) to 20 during(10 minutes) randomized, // 7
