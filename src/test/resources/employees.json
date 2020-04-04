@@ -1,42 +1,6 @@
-[
-    {
-        "empName": "Abhi_1",
-        "deptName": "Music",
-        "age": 30
-    },
-    {
-        "empName": "Amit_1",
-        "deptName": "IT",
-        "age": 20
-    },
-    {
-        "empName": "Abhinav_1",
-        "deptName": "Xstream",
-        "age": 25
-    },
-    {
-        "empName": "Agarwal_1",
-        "deptName": "Data Science",
-        "age": 24
-    },
-    {
-        "empName": "Scala_1",
-        "deptName": "Java",
-        "age": 35
-    },
-    {
-        "empName": "Jon_1",
-        "deptName": "Admin",
-        "age": 40
-    },
-    {
-        "empName": "Jon_2",
-        "deptName": "Admin",
-        "age": 40
-    },
-    {
-        "empName": "Jon_3",
-        "deptName": "Admin",
-        "age": 40
-    }
-]
+{
+    "empName": "${empName}",
+    "deptName": "${deptName}",
+    "age": ${age}
+}
+ 
